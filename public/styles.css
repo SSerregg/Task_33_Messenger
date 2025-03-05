@@ -1,0 +1,106 @@
+.friendP {
+   margin: 0ch;
+   margin-left: 2px;
+}
+.friends {
+   display: flex;
+}
+
+.chat-wrapper {
+   padding: 20px; 
+   margin: 20px auto;
+   border-left: 2px solid black;
+   border-right: 2px solid black;
+   max-width: 800px;
+   min-width: 500px;
+   background: #cccccc;
+   display: block;
+   margin-left: 0;
+   margin-right: 0;
+}
+
+.message-space {
+
+   background: #ffffff;
+}
+
+#main {
+   display: flex;
+}
+
+#left {
+   padding: 20px; 
+   margin: 20px auto;
+   background: #cccccc;
+   margin-right: 0;
+}
+
+#right {
+   padding: 20px; 
+   margin: 20px auto;
+   background: #cccccc;
+   margin-left: 0;
+}
+
+#message-box {
+   width: 97%;
+   display: inlrgb(255, 255, 255)ck;
+   height: 300px;
+   background: #cccccc;
+   box-shadow: inset #00000017;
+   overflow: auto;
+   padding: 10px;
+}
+
+.user-panel{
+   margin-top: 10px;
+}
+
+input[type=text]{
+   border: none;
+   padding: 5px 5px;
+   box-shadow: 2px 2px 2px #0000001c;
+}
+
+input[type=text]#name{
+   width: 20%;
+}
+
+input[type=text]#message{
+   width: 60%;
+}
+
+button#send-message{
+   border: 2px solid black;
+   padding: 5px 15px;
+   background: #cccccc;
+   box-shadow: 2px 2px 2px #0000001c;
+}
+
+.create-chat{
+   border-top: 2px solid black;
+  
+}
+
+.right-click-menu{
+   margin: 0;
+   padding: 0;
+   position: fixed;
+   display: none;
+   border: 2px solid black;
+}
+.right-click-menu.active{
+   display: block;
+}
+
+.right-click-menu li:hover {
+   background: #ffffff;
+}
+
+.soundButton{
+   background: #3ed650;
+}
+
+.red{
+   background: #d63e3e;
+}
